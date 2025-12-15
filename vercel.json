@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/jhonataemerick/(.*)",
+      "dest": "/jhonataemerick.lovable.app/$1"
+    },
+    {
+      "src": "/ebook5sinais/(.*)",
+      "dest": "/ebook5sinais/ebook5sinais.lovable.app/$1"
+    },
+    {
+      "src": "/workshop/(.*)",
+      "dest": "/workshoptomadadedecisao/workshoptomadadedecisao.lovable.app/$1"
+    },
+    {
+      "src": "/mentoria/(.*)",
+      "dest": "/mentoriadecisaopreditiva/mentoriadecisaopreditiva.lovable.app/$1"
+    },
+    {
+      "src": "/curso/(.*)",
+      "dest": "/cursodecisaopreditiva/cursodecisaopreditiva.lovable.app/$1"
+    },
+    {
+      "src": "/consultoria/(.*)",
+      "dest": "/consultoriapreditiva/consultoriapreditiva.lovable.app/$1"
+    },
+    {
+      "src": "/iaservice/(.*)",
+      "dest": "/iaservice/iaservice.lovable.app/$1"
+    },
+    {
+      "src": "/",
+      "dest": "/jhonataemerick.lovable.app/index.html"
+    }
+  ]
+}
