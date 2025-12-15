@@ -1,37 +1,64 @@
 {
-  "version": 2,
-  "routes": [
+  "rewrites": [
     {
-      "src": "/jhonataemerick/(.*)",
-      "dest": "/jhonataemerick.lovable.app/$1"
+      "source": "/jhonataemerick/:path*",
+      "destination": "/jhonataemerick.lovable.app/:path*"
     },
     {
-      "src": "/ebook5sinais/(.*)",
-      "dest": "/ebook5sinais/ebook5sinais.lovable.app/$1"
+      "source": "/jhonataemerick",
+      "destination": "/jhonataemerick.lovable.app/index.html"
     },
     {
-      "src": "/workshop/(.*)",
-      "dest": "/workshoptomadadedecisao/workshoptomadadedecisao.lovable.app/$1"
+      "source": "/ebook5sinais/:path*",
+      "destination": "/ebook5sinais/ebook5sinais.lovable.app/:path*"
     },
     {
-      "src": "/mentoria/(.*)",
-      "dest": "/mentoriadecisaopreditiva/mentoriadecisaopreditiva.lovable.app/$1"
+      "source": "/ebook5sinais",
+      "destination": "/ebook5sinais/ebook5sinais.lovable.app/index.html"
     },
     {
-      "src": "/curso/(.*)",
-      "dest": "/cursodecisaopreditiva/cursodecisaopreditiva.lovable.app/$1"
+      "source": "/workshop/:path*",
+      "destination": "/workshoptomadadedecisao/workshoptomadadedecisao.lovable.app/:path*"
     },
     {
-      "src": "/consultoria/(.*)",
-      "dest": "/consultoriapreditiva/consultoriapreditiva.lovable.app/$1"
+      "source": "/workshop",
+      "destination": "/workshoptomadadedecisao/workshoptomadadedecisao.lovable.app/index.html"
     },
     {
-      "src": "/iaservice/(.*)",
-      "dest": "/iaservice/iaservice.lovable.app/$1"
+      "source": "/mentoria/:path*",
+      "destination": "/mentoriadecisaopreditiva/mentoriadecisaopreditiva.lovable.app/:path*"
     },
     {
-      "src": "/",
-      "dest": "/jhonataemerick.lovable.app/index.html"
+      "source": "/mentoria",
+      "destination": "/mentoriadecisaopreditiva/mentoriadecisaopreditiva.lovable.app/index.html"
+    },
+    {
+      "source": "/curso/:path*",
+      "destination": "/cursodecisaopreditiva/cursodecisaopreditiva.lovable.app/:path*"
+    },
+    {
+      "source": "/curso",
+      "destination": "/cursodecisaopreditiva/cursodecisaopreditiva.lovable.app/index.html"
+    },
+    {
+      "source": "/consultoria/:path*",
+      "destination": "/consultoriapreditiva/consultoriapreditiva.lovable.app/:path*"
+    },
+    {
+      "source": "/consultoria",
+      "destination": "/consultoriapreditiva/consultoriapreditiva.lovable.app/index.html"
+    },
+    {
+      "source": "/iaservice/:path*",
+      "destination": "/iaservice/iaservice.lovable.app/:path*"
+    },
+    {
+      "source": "/iaservice",
+      "destination": "/iaservice/iaservice.lovable.app/index.html"
+    },
+    {
+      "source": "/",
+      "destination": "/jhonataemerick.lovable.app/index.html"
     }
   ]
 }
