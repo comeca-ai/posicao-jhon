@@ -1,59 +1,59 @@
 {
   "rewrites": [
     {
-      "source": "/jhonataemerick/:path*",
-      "destination": "/jhonataemerick.lovable.app/:path*"
+      "source": "/jhonataemerick/assets/:path*",
+      "destination": "/jhonataemerick.lovable.app/assets/:path*"
     },
     {
-      "source": "/jhonataemerick",
+      "source": "/jhonataemerick/:path*",
       "destination": "/jhonataemerick.lovable.app/index.html"
     },
     {
-      "source": "/ebook5sinais/:path*",
-      "destination": "/ebook5sinais/ebook5sinais.lovable.app/:path*"
+      "source": "/ebook5sinais/assets/:path*",
+      "destination": "/ebook5sinais/ebook5sinais.lovable.app/assets/:path*"
     },
     {
-      "source": "/ebook5sinais",
+      "source": "/ebook5sinais/:path*",
       "destination": "/ebook5sinais/ebook5sinais.lovable.app/index.html"
     },
     {
-      "source": "/workshop/:path*",
-      "destination": "/workshoptomadadedecisao/workshoptomadadedecisao.lovable.app/:path*"
+      "source": "/workshop/assets/:path*",
+      "destination": "/workshoptomadadedecisao/workshoptomadadedecisao.lovable.app/assets/:path*"
     },
     {
-      "source": "/workshop",
+      "source": "/workshop/:path*",
       "destination": "/workshoptomadadedecisao/workshoptomadadedecisao.lovable.app/index.html"
     },
     {
-      "source": "/mentoria/:path*",
-      "destination": "/mentoriadecisaopreditiva/mentoriadecisaopreditiva.lovable.app/:path*"
+      "source": "/mentoria/assets/:path*",
+      "destination": "/mentoriadecisaopreditiva/mentoriadecisaopreditiva.lovable.app/assets/:path*"
     },
     {
-      "source": "/mentoria",
+      "source": "/mentoria/:path*",
       "destination": "/mentoriadecisaopreditiva/mentoriadecisaopreditiva.lovable.app/index.html"
     },
     {
-      "source": "/curso/:path*",
-      "destination": "/cursodecisaopreditiva/cursodecisaopreditiva.lovable.app/:path*"
+      "source": "/curso/assets/:path*",
+      "destination": "/cursodecisaopreditiva/cursodecisaopreditiva.lovable.app/assets/:path*"
     },
     {
-      "source": "/curso",
+      "source": "/curso/:path*",
       "destination": "/cursodecisaopreditiva/cursodecisaopreditiva.lovable.app/index.html"
     },
     {
-      "source": "/consultoria/:path*",
-      "destination": "/consultoriapreditiva/consultoriapreditiva.lovable.app/:path*"
+      "source": "/consultoria/assets/:path*",
+      "destination": "/consultoriapreditiva/consultoriapreditiva.lovable.app/assets/:path*"
     },
     {
-      "source": "/consultoria",
+      "source": "/consultoria/:path*",
       "destination": "/consultoriapreditiva/consultoriapreditiva.lovable.app/index.html"
     },
     {
-      "source": "/iaservice/:path*",
-      "destination": "/iaservice/iaservice.lovable.app/:path*"
+      "source": "/iaservice/assets/:path*",
+      "destination": "/iaservice/iaservice.lovable.app/assets/:path*"
     },
     {
-      "source": "/iaservice",
+      "source": "/iaservice/:path*",
       "destination": "/iaservice/iaservice.lovable.app/index.html"
     },
     {
